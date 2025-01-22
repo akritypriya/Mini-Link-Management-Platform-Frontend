@@ -1,0 +1,127 @@
+ * {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .sidebarimg {
+    width: 45%;
+    object-fit: cover;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 100px;
+  }
+  
+  .headerbtn {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    display: flex;
+    gap: 40px;
+  }
+  .signup{
+    margin-top:14px;
+    width: 60px;
+    cursor: pointer;
+  }
+   .loginbtn {
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  .form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .formheader {
+font-family: Manrope;
+font-size: 20px;
+line-height: 27.32px;
+text-align: left;
+color: #3B3C51;
+
+
+
+
+  }
+  
+  .formText,
+  .formPassword {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Manrope;
+   text-align: left;
+   border: 1px solid #3B3C51;
+
+
+  }
+  
+ .registerBtn{
+   border: none;
+    width: 100%; 
+    cursor: pointer;
+    background-color: transparent;
+    height: 0%;
+ }
+  
+
+  .registerBtnimg {
+    background-color: transparent;
+    width: 100%;
+    
+  }
+  
+  .text {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #B3B3B3;
+
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .error {
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .errorBorder {
+    border-color: red !important;
+  }
+  
+  .errorLabel {
+    color: red !important;
+  }
+   
