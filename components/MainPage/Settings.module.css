@@ -1,0 +1,201 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -40%;
+    margin-right:30%;
+}
+
+.formText,
+.formMobile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+    flex: 0 0 150px ;
+    text-align: left;
+    color: #181820;
+    
+    
+}
+.nameLabel{
+  margin-right:33px;
+}
+.emaiLabel{
+  margin-right:34px;
+}
+
+.input {
+    padding: 10px;    
+    border-radius: 5px;
+    font-size: 14px;
+    flex:1px;
+    color: #3B3C51;
+    border: 1px solid #ECECF2;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+
+
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid #ECECF2;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+
+}
+
+.buttonGroup {
+
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: flex-start; 
+    
+}
+.updateButton
+ {
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+.updateButton,
+.deleteButton {    
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;    
+    width: 100%;
+    
+} 
+
+.updateButton {
+    border: 1px solid #1B48DA;
+    background: #1B48DA;
+
+    color: #fff;
+}
+
+.updateButton:hover {
+    background-color: #003e99;
+}
+
+.deleteButton {
+    border: 1px solid #EB0D0D;
+    background: #EB0D0D;
+    color: #fff;
+}
+
+.deleteButton:hover {
+    background-color: #b52d26;
+}
+
+.error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.success {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .popup {
+    background: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 30vh;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+  }
+  
+  .closeDeletePopup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .deletePopup {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .popup h2 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+  
+  .popupButtons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width:80%;
+    margin-left:50px;
+    
+  }
+  
+  .cancelButton {
+    flex: 1;
+    padding: 10px;
+    background: #ECECEE;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .cancelButton:hover {
+    background: #e2e2e2;
+  }
+  
+  .confirmButton {
+    flex: 1;
+    padding: 10px;
+    background: #1B48DA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .confirmButton:hover {
+    background: #003cb3;
+  }
+  

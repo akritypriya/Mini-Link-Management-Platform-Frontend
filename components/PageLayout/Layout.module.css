@@ -1,0 +1,21 @@
+.layout {
+    display: flex;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .pageContent {
+    padding: 20px;
+    
+  }
+  .mainContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    background-color: #ffffff;
+  }

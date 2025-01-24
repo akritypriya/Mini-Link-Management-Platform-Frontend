@@ -39,13 +39,13 @@ export default function Login() {
         console.log(data.token);
         console.log(data.username);
         alert("Logged in successfully");
-        navigate("/workspace");
+        navigate("/dashboard");
       } else {
-        setError("Invalid email or password"); // Handle non-200 response
+        setError("Invalid email or password"); 
       }
     } catch (err) {
       console.error(err);
-      setError("An error occurred. Please try again."); // Handle network or server errors
+      setError("An error occurred. Please try again."); 
     }
   };
 
@@ -88,7 +88,7 @@ export default function Login() {
             
           </div>
 
-         <button type="submit" className={styles.registerBtn}>Register</button>  
+         <button type="submit" className={styles.registerBtn}>Sign In</button>  
         </form>
         <p className={styles.text}>
           Don’t have an account?
